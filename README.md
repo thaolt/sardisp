@@ -8,7 +8,34 @@ DIY Simple Arduino In-System-Programmer (aka perf-board USBasp clone)
 
 ### Windows
 
+**Driver installation**
+
+Please read:
+
+* https://zadig.akeo.ie/
+* https://electronics.stackexchange.com/questions/416714/avrdude-does-not-recognize-usbasp-device/417509#417509
+
+Or download:
+
+https://raw.githubusercontent.com/thaolt/sardisp/master/drivers/usbasp_signed.zip
+
 ### Linux
+
+Linux doesn't need driver installation
+
+However, it would be more convenient to allow current user access USB instead of execute commands under `root` or `sudo`
+
+If you ever run these steps before, they don't need to be executed again
+
+`$USER` is your current login name on your machine
+
+```
+sudo adduser $USER dialout
+sudo adduser $USER tty
+sudo adduser $USER plugdev
+```
+
+Then log out of current desktop session and log in again, it's done.
 
 ## How to use
 
@@ -18,10 +45,13 @@ DIY Simple Arduino In-System-Programmer (aka perf-board USBasp clone)
 avrdude -u -c usbasp -P usb ...
 ```
 
+![avrdudess usbasp](doc/avrdudess.png)
+
 ### Arduino IDE
 
 `Tools` > `Programmer` > `USBasp`
 
+![arduino ide usbasp](doc/arduino_ide.jpg)
 
 ## Tools
 
