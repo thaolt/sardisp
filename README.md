@@ -39,11 +39,14 @@ Then log out of current desktop session and log in again, it's done.
 
 ## How to use
 
+Any software / IDE support USBasp programmer
+
 ### avrdude
 
 ```
 avrdude -u -c usbasp -P usb ...
 ```
+### AVRDUDESS
 
 ![avrdudess usbasp](doc/avrdudess.png)
 
