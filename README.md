@@ -12,6 +12,12 @@ DIY Simple Arduino In-System-Programmer (aka perf-board USBasp clone)
 
 ## How to use
 
+### avrdude
+
+```
+avrdude -u -c usbasp -P usb ...
+```
+
 ### Arduino IDE
 
 `Tools` > `Programmer` > `USBasp`
