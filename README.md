@@ -4,6 +4,19 @@
 
 DIY Simple Arduino In-System-Programmer (aka perf-board USBasp clone)
 
+## Installation
+
+### Windows
+
+### Linux
+
+## How to use
+
+### Arduino IDE
+
+`Tools` > `Programmer` > `USBasp`
+
+
 ## Tools
 
 * **Kicad PCB** software is used for making perf-board design easier. https://kicad.org/
@@ -19,7 +32,7 @@ DIY Simple Arduino In-System-Programmer (aka perf-board USBasp clone)
 
 ## References
 
-* https://github.com/obdev/v-usb
 * https://www.fischl.de/usbasp/
+* https://github.com/obdev/v-usb
 * https://hackaday.io/project/27401-creative-repairs-and-hacks/log/156127-replacing-an-atmega8-with-a-atmega328p-on-a-usbasp-board
 * https://tiktakx.wordpress.com/tag/diy-usbasp-using-atmega-328/
