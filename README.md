@@ -4,9 +4,18 @@
 
 DIY Simple Arduino In-System-Programmer (aka perf-board USBasp clone)
 
+## Tools
+
+* **Kicad PCB** software is used for making perf-board design easier. https://kicad.org/
+* **AVRDUDESS** is a GUI software for avrdude for flashing the firmware, works on Windows, Mac, Linux. https://blog.zakkemble.net/avrdudess-a-gui-for-avrdude/
+
 ## Schematic
 
 ![sardisp schematic](doc/sardisp_schematic.jpg)
+
+## Perf-board implement
+
+![sardisp board](doc/board.jpg)
 
 ## References
 
