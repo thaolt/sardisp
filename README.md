@@ -2,7 +2,7 @@
 
 ## Content
 
-  * [What is it?](#what-is-it-)
+  * [What is it?](#what-is-it)
   * [Installation](#installation)
     + [Windows](#windows)
     + [Linux](#linux)
